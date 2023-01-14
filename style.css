@@ -1,0 +1,18 @@
+html {
+    box-sizing: border-box;
+}
+
+*, *:before, *:after {
+    box-sizing: inherit;
+}
+
+.container {
+    width: 50em;
+    height: 100vh;
+    background-color: aqua;
+    margin: 0 auto;
+}
+
+.image {
+    background-image: url(images/halie-west-25xggax4bSA-unsplash.jpg);
+}
