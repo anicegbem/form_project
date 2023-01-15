@@ -25,11 +25,11 @@ body {
     margin: 0 auto;
 }
 
-.image {
+.image-container {
     position: relative;
     background-image: url(images/halie-west-25xggax4bSA-unsplash.jpg);
     background-size: cover;
-    width: 40%;
+    width: 70%;
     height: 100%;
 }
 
@@ -47,7 +47,7 @@ body {
 }
 
 .odin > img {
-    margin-left: 120px;
+    margin-left: 90px;
     /* justify-self: start; */
     
 }
@@ -58,5 +58,9 @@ body {
     color: #fff;
     margin-left: 2px;
     margin-top: 20px;
+}
+
+.text {
+    
 }
 
