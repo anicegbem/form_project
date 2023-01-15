@@ -61,9 +61,10 @@ body {
 }
 
 .inner {
-    padding-left: 1.5em;
-    padding-top: 6em;
-    padding-right: 5.5em;
+    padding-left: 1.2em;
+    padding-top: 5em;
+    padding-right: 4em; 
+    background-color: rgb(253, 251, 251);
     
     
     
@@ -72,5 +73,7 @@ body {
 .inner > .intro {
     font-size: small;
     font-weight: bold;
+    padding-bottom: 2.2em;
+    border-bottom: 0.001px solid rgba(0, 0, 0, 0.15);
 }
 
