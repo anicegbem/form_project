@@ -7,8 +7,13 @@ html {
 }
 
 body {
-    overflow: hidden;
+    overflow: hidden; 
     background-color: #000;
+}
+
+@font-face {
+    font-family: Norse-Bold;
+    src: url(fonts/Norse-Bold.otf);
 }
 
 .container {
@@ -48,8 +53,10 @@ body {
 }
 
 .odin > .image-text {
+    font-family: Norse-Bold;
+    font-size: 3rem;
     color: #fff;
     margin-left: 2px;
-    margin-top: 22px;
+    margin-top: 20px;
 }
 
