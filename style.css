@@ -8,7 +8,7 @@ html {
 
 body {
     margin: 0;
-    overflow: hidden; 
+    overflow: scroll; 
     background-color: #000;
 }
 
@@ -20,7 +20,6 @@ body {
 .container {
     display: flex;
     background-color: #fff;
-    /* justify-content: space-between; */
     width: 50em;
     height: 100vh;
     margin: 0 auto;
@@ -41,7 +40,6 @@ body {
     top: 150px;
     width: 100%;
     height: 100px;
-    /* justify-content: center; */
     background-color: rgb(32, 30, 30);
     opacity: 0.7;
     padding: 4px;
@@ -50,7 +48,7 @@ body {
 
 .odin > img {
     margin-left: 90px;
-    /* justify-self: start; */
+    
     
 }
 
@@ -73,7 +71,7 @@ body {
 .inner > .intro {
     padding-left: 1.2em;
     padding-right: 4em; 
-    font-size: small;
+    font-size: large;
     font-weight: bold;
     padding-bottom: 2.2em;
     border-bottom: 0.001px solid rgba(0, 0, 0, 0.15);
@@ -82,14 +80,12 @@ body {
 .forms > form {
     display: flex;
     flex-flow: row wrap;
-    /* justify-content: space-between; */
     font-size: 15px;
     margin: 0 -1rem 1rem -1rem;
     padding-left: 1.2em;
 }
 
 input {
-    /* width: 150px; */
     border-radius: 2px;
     border-width: 0.4px;
     border-color: #E5E7EB;
@@ -108,7 +104,8 @@ form > div {
 .forms {
     padding-left: 1.2em;
     border-bottom: 1px solid #000;
-    box-shadow: 4px 2px 5px rgba(0, 0, 0, 0.25);
+    box-shadow: 0px 1px 1px rgba(36, 35, 35, 0.25);
+    /* box-shadow: 0 2px 5px rgba(0, 0, 0, 0.25);  */
 }
 
 input:focus {
@@ -150,8 +147,8 @@ div > label {
     text-decoration: none;
 }
 
-.forms > form div:nth-last-child(-n+3) {
-    
+.error {
+    color: rgb(255, 69, 100);
 }
 
 @media screen and (max-width: 850px) {
@@ -162,10 +159,9 @@ div > label {
     .container {
         display: block;
         background-color: #fff;
-        /* justify-content: space-between; */
         width: 100vw;
         height: 100vh;
-        /* margin: 0 auto; */
+        
     }
 
     .image-container {
@@ -182,7 +178,6 @@ div > label {
         top: 0px;
         width: 100%;
         height: 100px;
-        /* justify-content: center; */
         background-color: rgb(32, 30, 30);
         opacity: 0.8;
         padding: 4px;
@@ -190,7 +185,6 @@ div > label {
     }
     .forms > form {
         display: block;
-        /* justify-content: space-between; */
         font-size: 15px;
         margin: 0 -1rem 1rem -1rem;
         padding-left: 1.2em;
